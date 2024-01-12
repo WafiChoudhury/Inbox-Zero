@@ -3,7 +3,6 @@ from langchain.vectorstores import Chroma
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema.output import LLMResult
 from langchain.prompts import PromptTemplate
-from langchain.llms import LlamaCpp
 from langchain.embeddings import HuggingFaceBgeEmbeddings
 from langchain.document_loaders import DirectoryLoader, JSONLoader, TextLoader
 from langchain.chat_models import ChatOpenAI
@@ -80,7 +79,7 @@ prompt_queue = Queue()
 sse_event_queue = Queue()
 response_thread = None
 
-USE_OPENAI = False
+USE_OPENAI = True
 
 logging.basicConfig(filename="FlaskGPT.log", level=logging.INFO, filemode="w")
 
@@ -232,20 +231,6 @@ def create_vectordb():
 
     except Exception as e:
         logging.error(f"An error occurred while processing file: {e}")
-
-
-def init_local_llm(model_name):
-    global llm
-
-    try:
-        model_dir = os.path.join(os.getcwd(), 'models')
-        model_path = os.path.join(model_dir, model_name)
-
-        llm = LlamaCpp(model_path=model_path, temperature=0, n_ctx=2048, n_gpu_layers=8,
-                       n_batch=100, streaming=True, callbacks=[])
-        logging.info(f"Local LLM: {model_name} has been loaded")
-    except Exception as e:
-        logging.error(f"Failed to load local model '{model_name}': {e}")
 
 
 def init_openai_llm():

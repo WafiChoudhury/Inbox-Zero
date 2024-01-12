@@ -1,102 +1,50 @@
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 573-678-559
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:35:44] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:35:45] "GET /static/css/chat.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:35:45] "GET /static/css/normalize.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:36:15] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:36:15] "GET /static/css/chat.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:36:15] "GET /static/css/normalize.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:36:58] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:36:58] "GET /static/css/chat.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:36:58] "GET /static/css/normalize.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:37:03] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:37:04] "GET /static/css/chat.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:37:04] "[36mGET /static/css/normalize.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:37:33] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:37:33] "GET /static/css/chat.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:37:33] "[36mGET /static/css/normalize.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:37:36] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:37:37] "GET /static/css/chat.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:37:37] "[36mGET /static/css/normalize.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:38:55] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:38:55] "GET /static/css/chat.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:38:55] "[36mGET /static/css/normalize.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:39:16] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:39:16] "GET /static/css/chat.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:39:16] "[36mGET /static/css/normalize.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:39:27] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:39:27] "GET /static/css/chat.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:39:27] "[36mGET /static/css/normalize.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:39:34] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:39:34] "GET /static/css/chat.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:39:34] "[36mGET /static/css/normalize.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:39:43] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:39:43] "GET /static/css/chat.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:39:43] "[36mGET /static/css/normalize.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:43:35] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:43:35] "GET /static/css/chat.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:43:35] "GET /static/css/normalize.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:43:48] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:43:48] "GET /static/css/chat.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:43:48] "GET /static/css/normalize.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:43:55] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:43:55] "GET /static/css/chat.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:43:55] "GET /static/css/normalize.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:44:11] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:44:11] "GET /static/css/chat.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:44:11] "GET /static/css/normalize.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:44:28] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:44:28] "GET /static/css/chat.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:44:28] "GET /static/css/normalize.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:44:35] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:44:35] "GET /static/css/chat.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:44:35] "GET /static/css/normalize.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:45:25] "POST / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:45:25] "GET /stream HTTP/1.1" 200 -
-ERROR:werkzeug:Error on request:
-Traceback (most recent call last):
-  File "/Users/wafichoudhury/opt/anaconda3/envs/rec_test/lib/python3.11/site-packages/werkzeug/serving.py", line 364, in run_wsgi
-    execute(self.server.app)
-  File "/Users/wafichoudhury/opt/anaconda3/envs/rec_test/lib/python3.11/site-packages/werkzeug/serving.py", line 330, in execute
-    write(b"")
-  File "/Users/wafichoudhury/opt/anaconda3/envs/rec_test/lib/python3.11/site-packages/werkzeug/serving.py", line 294, in write
-    self.end_headers()
-  File "/Users/wafichoudhury/opt/anaconda3/envs/rec_test/lib/python3.11/http/server.py", line 538, in end_headers
-    self.flush_headers()
-  File "/Users/wafichoudhury/opt/anaconda3/envs/rec_test/lib/python3.11/http/server.py", line 542, in flush_headers
-    self.wfile.write(b"".join(self._headers_buffer))
-  File "/Users/wafichoudhury/opt/anaconda3/envs/rec_test/lib/python3.11/socketserver.py", line 834, in write
-    self._sock.sendall(b)
-  File "/Users/wafichoudhury/opt/anaconda3/envs/rec_test/lib/python3.11/ssl.py", line 1241, in sendall
-    v = self.send(byte_view[count:])
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/wafichoudhury/opt/anaconda3/envs/rec_test/lib/python3.11/ssl.py", line 1210, in send
-    return self._sslobj.write(data)
-           ^^^^^^^^^^^^^^^^^^^^^^^^
-ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:2423)
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:46:58] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:46:58] "GET /static/css/chat.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:46:58] "GET /static/css/normalize.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:47:00] "POST / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 15:47:00] "GET /stream HTTP/1.1" 200 -
-ERROR:werkzeug:Error on request:
-Traceback (most recent call last):
-  File "/Users/wafichoudhury/opt/anaconda3/envs/rec_test/lib/python3.11/site-packages/werkzeug/serving.py", line 364, in run_wsgi
-    execute(self.server.app)
-  File "/Users/wafichoudhury/opt/anaconda3/envs/rec_test/lib/python3.11/site-packages/werkzeug/serving.py", line 330, in execute
-    write(b"")
-  File "/Users/wafichoudhury/opt/anaconda3/envs/rec_test/lib/python3.11/site-packages/werkzeug/serving.py", line 294, in write
-    self.end_headers()
-  File "/Users/wafichoudhury/opt/anaconda3/envs/rec_test/lib/python3.11/http/server.py", line 538, in end_headers
-    self.flush_headers()
-  File "/Users/wafichoudhury/opt/anaconda3/envs/rec_test/lib/python3.11/http/server.py", line 542, in flush_headers
-    self.wfile.write(b"".join(self._headers_buffer))
-  File "/Users/wafichoudhury/opt/anaconda3/envs/rec_test/lib/python3.11/socketserver.py", line 834, in write
-    self._sock.sendall(b)
-  File "/Users/wafichoudhury/opt/anaconda3/envs/rec_test/lib/python3.11/ssl.py", line 1241, in sendall
-    v = self.send(byte_view[count:])
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/wafichoudhury/opt/anaconda3/envs/rec_test/lib/python3.11/ssl.py", line 1210, in send
-    return self._sslobj.write(data)
-           ^^^^^^^^^^^^^^^^^^^^^^^^
-ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:2423)
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:29] "GET /homepage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:29] "GET /static/vendors/owl-carousel/css/owl.theme.default.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:29] "GET /static/vendors/mdi/css/materialdesignicons.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:29] "GET /static/vendors/aos/css/aos.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:29] "GET /static/css/style.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:29] "GET /static/vendors/owl-carousel/css/owl.carousel.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:29] "GET /static/images//Group2.svg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:29] "GET /static/images//Group171.svg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:30] "GET /static/images//Group12.svg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:30] "GET /static/images//Group7.svg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:30] "GET /static/images//Group5.svg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:30] "GET /static/vendors/jquery/jquery.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:30] "GET /static/vendors/bootstrap/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:30] "GET /static/vendors/owl-carousel/js/owl.carousel.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:30] "GET /static/vendors/aos/js/aos.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:30] "GET /static/landingpage.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:30] "GET /static/images//Group1.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:30] "GET /static/images/branTest.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:30] "GET /static/images//joshface.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:30] "GET /static/images//Group2.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:30] "GET /static/images//rohitfae.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:30] "GET /static/images//veerface.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:30] "GET /static/images/chijiface.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:30] "GET /static/images/Group2.svg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:30] "GET /static/images/gdpr.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:30] "GET /static/vendors/mdi/fonts/materialdesignicons-webfont.woff2?v=2.2.43 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:37] "GET /canvas HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:37] "GET /static/vendors/owl-carousel/css/owl.carousel.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:37] "GET /static/vendors/owl-carousel/css/owl.theme.default.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:37] "GET /static/vendors/mdi/css/materialdesignicons.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:37] "GET /static/vendors/aos/css/aos.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:33:37] "GET /static/css/style.min.css HTTP/1.1" 200 -
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: thenlper/gte-base
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+INFO:root:The '/Users/wafichoudhury/Downloads/inboxZeroApp/db' folder has been created.
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: thenlper/gte-base
+INFO:root:LLM initialized
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:34:35] "[32mPOST /submit_token HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:34:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:34:36] "GET /static/css/chat.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:34:36] "GET /static/css/normalize.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:34:40] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:34:41] "GET /stream HTTP/1.1" 200 -
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:34:51] "POST / HTTP/1.1" 200 -
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2024 17:35:05] "POST / HTTP/1.1" 200 -
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"

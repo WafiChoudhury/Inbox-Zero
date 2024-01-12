@@ -2,8 +2,7 @@
 openai
 langchain
 sentence_transformers
-llama-cpp-python
 flask
 chromadb
-jq
-torch
+torch 
+ 
