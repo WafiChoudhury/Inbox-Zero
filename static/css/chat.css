@@ -36,6 +36,8 @@
 }
 
 .chat-input-holder {
+    justify-content: center;
+
     padding: 24px;
     padding-top: 20px;
     position: absolute;
@@ -44,21 +46,26 @@
     left: 0;
     font-family: 'Sohne', sans-serif;
 
+
 }
 
 .chat-input-textarea {
+    text-align: left;
+    vertical-align: left;
+    line-height: 1.4;
+    /* Adjust the line height as needed */
+
     position: fixed;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 100;
     resize: none;
-    text-align: justify;
 
     /* Show above blur */
     background-color: #F8F8F7;
     width: 60%;
-    height: 24px;
+    min-height: 24px;
     border-radius: 15px;
     padding: 12px;
     border: none;
@@ -139,6 +146,7 @@
     flex: 1;
     /* Allow the message to take remaining space */
     padding-left: 20px;
+    font-weight: 1px;
     /* Adjust padding to move text further down */
     padding-right: 20px;
     font-family: 'Sohne', sans-serif;
@@ -148,11 +156,20 @@
 
 
 
+body,
+textarea,
+input,
+.message,
+.chat-message {
+    font-weight: lighter;
+}
 
 .message-chatgpt {
     flex: 1;
     /* Allow the message to take remaining space */
     padding-left: 20px;
+    font-weight: 1px;
+
     /* Adjust padding to move text further down */
     padding-right: 20px;
     /* Adjust the margin as needed */
