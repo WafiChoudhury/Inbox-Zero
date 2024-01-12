@@ -23,9 +23,7 @@ from test import uniqueCourse, CanvasAPI
 import unicodedata
 
 # email imports
-from google_auth_oauthlib.flow import Flow
-from googleapiclient.discovery import build
-from google_auth_oauthlib.flow import InstalledAppFlow
+
 
 CLIENT_SECRETS_FILE = '/Users/wafichoudhury/Desktop/inboxZeroApp/ouathcred.json'
 API_NAME = 'gmail'
