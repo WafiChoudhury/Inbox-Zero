@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="static/css/chat.css">
+    <link rel="stylesheet" href="static/css/normalize.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link href="https://fonts.cdnfonts.com/css/sohne" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.0/dist/js.cookie.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+</head>
+<script>
+    var eventSource = null;
+
+    function scrollChatToBottom() {
+        var chatLog = document.getElementById("App");
+        chatLog.scrollChatToBottom = chatLog.scrollHeight;
+        window.scrollTo(0, document.body.scrollHeight);
+
+    }
+    function scrollWholeBottom() {
+        var chatLog = document.getElementById("App");
+        chatLog.scrollChatToBottom = chatLog.scrollHeight;
+    }
+
+
+    // Function to handle SSE and update the response div
+    function setupSSE() {
+        if (eventSource) {
+            eventSource.close();
+        }
+        eventSource = new EventSource("/stream");
+
+        eventSource.onmessage = function (event) {
+            var data = JSON.parse(event.data);
+
+            var type = data.type;
+            var content = data.content;
+
+
+            // Append the message to the response div based on the role
+            if (type === "token") {
+                $('#response .message-chatgpt').last().append(content);
+                setTimeout(() => {
+                    $('.App').scrollTop(height);
+                }, 100);
+                let height = $('.App')[0].scrollHeight;
+
+
+                $('.App').scrollTop(height);
+            }
+            else if (type === "error") {
+                console.log(content);
+            }
+
+            // Scroll to the bottom of the output container
+
+        };
+
+        eventSource.onopen = function (event) {
+            console.log("SSE connection opened.");
+        };
+
+        // Handle errors
+        eventSource.onerror = function (event) {
+            console.error("EventSource failed:", event);
+            eventSource.close();
+        };
+
+        // Close the EventSource when the page is unloaded
+        window.onbeforeunload = function () {
+            console.error("SSE connection closed.");
+            eventSource.close();
+        };
+    }
+
+    // Call the setupSSE function when the page is ready
+    $(document).ready(function () {
+        setupSSE();
+
+        $('#prompt').keypress(function (event) {
+            if (event.keyCode === 13 && !event.shiftKey) {
+                event.preventDefault();
+                $('form').submit();
+            }
+        });
+
+        $('form').on('submit', function (event) {
+            event.preventDefault();
+            // get the CSRF token from the cookie
+            var csrftoken = Cookies.get('csrftoken');
+
+            // set the CSRF token in the AJAX headers
+            $.ajaxSetup({
+                headers: { 'X-CSRFToken': csrftoken }
+            });
+            // Get the prompt
+            var prompt = $('#prompt').val();
+            var dateTime = new Date();
+            var time = dateTime.toLocaleTimeString();
+
+            $('#response').append(
+                ' <div class="chat-message">' +
+                '<div class="chat-message-center">' +
+                '<div class="avatar">' +
+                '</div>' +
+                '<div class="message">' +
+                prompt +
+                '</div>' +
+                '</div>');
+
+
+            // Clear the prompt
+            $('#prompt').val('');
+            $.ajax({
+                url: '/',
+                type: 'POST',
+                data: {
+                    prompt: prompt,
+                },
+                dataType: 'json',
+                success: function (data) {
+                    if (data.status === 'success') {
+                        // Append the response to the response div
+                        $('#response').append(' <div class="chat-message chatgpt">' +
+                            '<div class="chat-message-center">' +
+                            '<div class="avatar chatgpt">' +
+                            '</div>' +
+                            '<div class="space">   </div> ' +
+
+                            '<div class="message-chatgpt">' +
+
+                            '</div>' +
+                            '</div>');
+
+                    }
+                }
+
+
+            });
+
+
+            var scrollHeight = $('#outer')[0].scrollHeight;
+
+            console.log(scrollHeight);
+            $('#outer').animate({
+                scrollTop: scrollHeight
+            }, 300);
+
+
+        });
+    });
+</script>
+
+<body>
+
+    <div class="App">
+        <section class="chatbox" id="box">
+            <div class="chat-log" id="response"></div>
+
+        </section>
+        <div class="blur"></div>
+
+
+    </div>
+    <form method="post" action="">
+
+        <div class="chat-input-holder">
+            <textarea rows="1" class="chat-input-textarea" id="prompt" name="prompt"
+                placeholder="Message Inbox..."></textarea>
+            <button class="btn btn-primary mt-2" type="submit" style="display: none;">Submit</button>
+
+    </form>
+    </div>
+
+</body>
+
+</html>

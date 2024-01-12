@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>InboxZero landing page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="static/vendors/owl-carousel/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="static/vendors/owl-carousel/css/owl.theme.default.css">
+  <link rel="stylesheet" href="static/vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="static/vendors/aos/css/aos.css">
+  <link rel="stylesheet" href="static/css/style.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" />
+
+</head>
+<style>
+  /* Add a CSS rule to apply EB Garamond font */
+  .font-weight-semibold {
+    font-family: 'EB Garamond', serif;
+    line-height: 50px;
+
+  }
+</style>
+
+<body id="body" data-spy="scroll" data-target=".navbar" data-offset="100">
+  <header id="header-section">
+    <nav class="navbar navbar-expand-lg pl-3 pl-sm-0" id="navbar">
+      <div class="container">
+        <div class="navbar-brand-wrapper d-flex w-100">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            style="width: 50%; height: 50%" viewBox="0 0 200 30" preserveAspectRatio="none" width="100%" height="100%">
+            <!-- Email Icon -->
+            <path fill="#000000"
+              d="M17.25 3H2.75C1.5 3 0.5 4 0.5 5.25V18.75C0.5 20 1.5 21 2.75 21H17.25C18.5 21 19.5 20 19.5 18.75V5.25C19.5 4 18.5 3 17.25 3ZM17.25 6.75L10.625 11.0625L2.75 6.75V5.25L10.625 9.5625L17.25 5.25V6.75ZM2.75 18V9.9375L10.25 13.8125C10.25 13.8125 10.3883 13.8875 10.625 14V16.3125L2.75 20.625V18ZM17.25 17.375L10.625 13.8125C10.625 13.8125 10.3883 13.8875 10.625 14V16.3125L17.25 20.625V17.375Z" />
+
+            <!-- Text -->
+            <text x="25" y="70%" font-size="15" font-family="Arial">
+              Zero
+            </text>
+          </svg>
+
+          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="mdi mdi-menu navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse navbar-menu-wrapper" id="navbarSupportedContent">
+          <ul class="navbar-nav align-items-lg-center align-items-start ml-auto">
+            <li class="d-flex align-items-center justify-content-between pl-4 pl-lg-0">
+              <div class="navbar-collapse-logo">
+                <img src="static/images//Group2.svg" alt="">
+              </div>
+              <button class="navbar-toggler close-button" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="mdi mdi-close navbar-toggler-icon pl-5"></span>
+              </button>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#header-section">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features-section">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#digital-marketing-section">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#feedback-section">Testimonials</a>
+            </li>
+            <li class="nav-item btn-contact-us pl-4 pl-lg-0">
+              <button class="btn btn-info" data-toggle="modal" data-target="#exampleModal">Contact Us</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="banner">
+    <div class="container">
+      <h1 class="font-weight-semibold">An AI Assistant <br> Made For Students.</h1>
+      <!-- <h6 class="font-weight-normal text-muted pb-3">InboxZero is a supercharged LLM assistant that helps you make sense -->
+      <!-- of your classes.</h6> -->
+      <div>
+        <button id="getStartedBtn" class="btn btn-opacity-light mr-1">Get started</button>
+        <button class="btn btn-opacity-success ml-1">Learn more</button>
+      </div>
+      <img src="static/images//Group171.svg" alt="" class="img-fluid">
+    </div>
+  </div>
+  <div class="content-wrapper">
+    <div class="container">
+      <section class="features-overview" id="features-section">
+        <div class="content-header">
+          <h2 class="font-weight-semibold">How it works</h2>
+          <h6 class="section-subtitle text-muted">How InboxZero makes your grades better </h6>
+        </div>
+        <div class="d-md-flex justify-content-between">
+          <div class="grid-margin d-flex justify-content-start">
+            <div class="features-width">
+              <img src="static/images//Group12.svg" alt="" class="img-icons">
+              <h5 class="py-3">Canvas<br>Access</h5>
+              <p class="text-muted">After providing your Canvas API access token we are able to analyze your coursework
+              </p>
+
+            </div>
+          </div>
+          <div class="grid-margin d-flex justify-content-center">
+            <div class="features-width">
+              <img src="static/images//Group7.svg" alt="" class="img-icons">
+              <h5 class="py-3">AI <br>Learning</h5>
+              <p class="text-muted">We train our supercharged AI model on your classes and create a powerful assistant
+                built just for <b>you</b></p>
+
+            </div>
+          </div>
+          <div class="grid-margin d-flex justify-content-end">
+            <div class="features-width">
+              <img src="static/images//Group5.svg" alt="" class="img-icons">
+              <h5 class="py-3">Your Grades<br>Improve</h5>
+              <p class="text-muted">You talk to your assistant to plan your schedule, study for midterms better, and
+                stay on top of assignments</p>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="digital-marketing-service" id="digital-marketing-section">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-7 grid-margin grid-margin-lg-0" data-aos="fade-right">
+            <h1 class="font-weight-semibold">Your Data Is Safe With Us!</h1>
+            <div class="col-lg-7 col-xl-6 p-0">
+              <p class="py-4 m-0 text-muted">We do not sell or redistribute your canvas data, all user data is
+                private.
+              </p>
+
+            </div>
+          </div>
+          <div class="col-12 col-lg-5 p-0 img-digital grid-margin grid-margin-lg-0" data-aos="fade-left">
+            <img src="static/images//Group1.png" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-7 text-center flex-item grid-margin" data-aos="fade-right">
+            <img src="static/images//Group2.png" alt="" class="img-fluid">
+          </div>
+          <div class="col-12 col-lg-5 flex-item grid-margin" data-aos="fade-left">
+            <h1 class="font-weight-semibold">Have a Personalized Tutor<br> for Free.</h1>
+            <div class="col-lg-9 col-xl-8 p-0">
+              <p class="py-4 m-0 text-muted">We train a powerful AI model on your Canvas data, making it a powerful
+                personal assistant.</p>
+              <p class="pb-2 font-weight-medium text-muted">Unlike ChatGPT, your assistant knows all about your classes
+                and can provide specific advice and information.</p>
+            </div>
+            <button class="btn btn-info">Readmore</button>
+          </div>
+        </div>
+      </section>
+      <!-- <section class="case-studies" id="case-studies-section">
+        <div class="row grid-margin">
+          <div class="col-12 text-center pb-5">
+            <h2>Our case studies</h2>
+            <h6 class="section-subtitle text-muted">Lorem ipsum dolor sit amet, tincidunt vestibulum.</h6>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in">
+            <div class="card color-cards">
+              <div class="card-body p-0">
+                <div class="bg-primary text-center card-contents">
+                  <div class="card-image">
+                    <img src="static/images//Group95.svg" class="case-studies-card-img" alt="">
+                  </div>
+                  <div class="card-desc-box d-flex align-items-center justify-content-around">
+                    <div>
+                      <h6 class="text-white pb-2 px-3">Know more about Online marketing</h6>
+                      <button class="btn btn-white">Read More</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-details text-center pt-4">
+                  <h6 class="m-0 pb-1">Online Marketing</h6>
+                  <p>Seo, Marketing</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="card color-cards">
+              <div class="card-body p-0">
+                <div class="bg-warning text-center card-contents">
+                  <div class="card-image">
+                    <img src="static/images/Group108.svg" class="case-studies-card-img" alt="">
+                  </div>
+                  <div class="card-desc-box d-flex align-items-center justify-content-around">
+                    <div>
+                      <h6 class="text-white pb-2 px-3">Know more about Web Development</h6>
+                      <button class="btn btn-white">Read More</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-details text-center pt-4">
+                  <h6 class="m-0 pb-1">Web Development</h6>
+                  <p>Developing, Designing</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 stretch-card mb-3 mb-lg-0" data-aos="zoom-in" data-aos-delay="400">
+            <div class="card color-cards">
+              <div class="card-body p-0">
+                <div class="bg-violet text-center card-contents">
+                  <div class="card-image">
+                    <img src="static/images//Group126.svg" class="case-studies-card-img" alt="">
+                  </div>
+                  <div class="card-desc-box d-flex align-items-center justify-content-around">
+                    <div>
+                      <h6 class="text-white pb-2 px-3">Know more about Web Designing</h6>
+                      <button class="btn btn-white">Read More</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-details text-center pt-4">
+                  <h6 class="m-0 pb-1">Web Designing</h6>
+                  <p>Designing, Developing</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 stretch-card" data-aos="zoom-in" data-aos-delay="600">
+            <div class="card color-cards">
+              <div class="card-body p-0">
+                <div class="bg-success text-center card-contents">
+                  <div class="card-image">
+                    <img src="static/images//Group115.svg" class="case-studies-card-img" alt="">
+                  </div>
+                  <div class="card-desc-box d-flex align-items-center justify-content-around">
+                    <div>
+                      <h6 class="text-white pb-2 px-3">Know more about Software Development</h6>
+                      <button class="btn btn-white">Read More</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-details text-center pt-4">
+                  <h6 class="m-0 pb-1">Software Development</h6>
+                  <p>Developing, Designing</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <section class="customer-feedback" id="feedback-section">
+        <div class="row">
+          <div class="col-12 text-center pb-5">
+            <h2 class="font-weight-semibold">What Students are Saying</h2>
+          </div>
+          <div class="owl-carousel owl-theme grid-margin">
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="static/images/branTest.jpg" width="89" height="89" alt="" class="img-customer">
+                  <p class="m-0 py-3 text-muted">Inbox Zero helped me go from a B to an A in my Digital Logic class!
+                  </p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">Brandon Vu</h6>
+                  <h6 class="customer-designation text-muted m-0">UT Austin</h6>
+                </div>
+              </div>
+            </div>
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="static/images//rohitfae.png" width="89" height="89" alt="" class="img-customer">
+                  <p class="m-0 py-3 text-muted">InboZero raised my grade from a C to an A in my Modern Web Apps class!
+                  </p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">Rohit Shetty</h6>
+                  <h6 class="customer-designation text-muted m-0">UT Austin</h6>
+                </div>
+              </div>
+            </div>
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="static/images//joshface.png" width="89" height="89" alt="" class="img-customer">
+                  <p class="m-0 py-3 text-muted">InboxZero was a great study budy for my history and software design
+                    classes!</p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">Josh Valinksy</h6>
+                  <h6 class="customer-designation text-muted m-0">UT Austin</h6>
+                </div>
+              </div>
+            </div>
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="static/images//veerface.jpeg" width="89" height="89" alt="" class="img-customer">
+                  <p class="m-0 py-3 text-muted">InboxZero helped me make sense of my algorithms class and study for
+                    midterms better.</p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">Veer Mistry</h6>
+                  <h6 class="customer-designation text-muted m-0">UT Austin</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="card customer-cards">
+              <div class="card-body">
+                <div class="text-center">
+                  <img src="static/images/chijiface.jpeg" width="89" height="89" alt="" class="img-customer">
+                  <p class="m-0 py-3 text-muted">Operating Systems was a breeze with the help of an AI assistant!</p>
+                  <div class="content-divider m-auto"></div>
+                  <h6 class="card-title pt-3">Chijioke Mgbahurike</h6>
+                  <h6 class="customer-designation text-muted m-0">Stanford</h6>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+      </section>
+      <section class="contact-us" id="contact-section">
+        <div class="contact-us-bgimage grid-margin">
+          <div class="pb-4">
+            <h4 class="px-3 px-md-0 m-0" data-aos="fade-down">Ready To Try?</h4>
+          </div>
+          <div data-aos="fade-up">
+            <button id="getStartedBtn" class="btn btn-rounded btn-outline-danger">Get Started</button>
+          </div>
+        </div>
+      </section>
+      <section class="contact-details" id="contact-details-section">
+        <div class="row text-center text-md-left">
+          <div class="col-12 col-md-6 col-lg-3 grid-margin">
+            <img src="static/images/Group2.svg" alt="" class="pb-2">
+            <div class="pt-2">
+              <p class="text-muted m-0">wafi@utexas.edu</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 grid-margin">
+            <h5 class="pb-2">Get in Touch</h5>
+            <p class="text-muted">Don’t miss any updates of our new templates and extensions.!</p>
+            <form>
+              <input type="text" class="form-control" id="Email" placeholder="Email id">
+            </form>
+            <div class="pt-3">
+              <button class="btn btn-dark">Subscribe</button>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 grid-margin">
+            <h5 class="pb-2">Our Guidelines</h5>
+            <a href="#">
+              <p class="m-0 pb-2">Terms</p>
+            </a>
+            <a href="#">
+              <p class="m-0 pt-1 pb-2">Privacy policy</p>
+            </a>
+            <a href="#">
+              <p class="m-0 pt-1 pb-2">Cookie Policy</p>
+            </a>
+            <a href="#">
+              <p class="m-0 pt-1">Discover</p>
+            </a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 grid-margin">
+            <h5 class="pb-2">Our address</h5>
+            <p class="text-muted">2100 Rio Grande Street<br>Austin. Texas</p>
+            <div class="d-flex justify-content-center justify-content-md-start">
+              <a href="#"><span class="mdi mdi-facebook"></span></a>
+              <a href="#"><span class="mdi mdi-twitter"></span></a>
+              <a href="#"><span class="mdi mdi-instagram"></span></a>
+              <a href="#"><span class="mdi mdi-linkedin"></span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Modal for Contact - us Button -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="exampleModalLabel">Contact Us</h4>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="Name">Name</label>
+                  <input type="text" class="form-control" id="Name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <label for="Email">Email</label>
+                  <input type="email" class="form-control" id="Email-1" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <label for="Message">Message</label>
+                  <textarea class="form-control" id="Message" placeholder="Enter your Message"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-success">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="static/vendors/jquery/jquery.min.js"></script>
+  <script src="static/vendors/bootstrap/bootstrap.min.js"></script>
+  <script src="static/vendors/owl-carousel/js/owl.carousel.min.js"></script>
+  <script src="static/vendors/aos/js/aos.js"></script>
+  <script src="static/landingpage.js"></script>
+</body>
+
+</html>

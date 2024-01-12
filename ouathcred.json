@@ -1,0 +1,13 @@
+{
+    "web": {
+        "client_id": "612645393793-3naran3n9gb1l57317pe2bbt19bgl934.apps.googleusercontent.com",
+        "project_id": "unified-firefly-351003",
+        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        "token_uri": "https://oauth2.googleapis.com/token",
+        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        "client_secret": "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",
+        "redirect_uris": [
+            "https://localhost:8080/oauth2callback"
+        ]
+    }
+}

@@ -1,0 +1,451 @@
+Class for Trustworthy Machine Learning :
+
+    Assignments for Trustworthy ML:
+    Reading quiz #1: "Dissecting racial bias in an algorithm used to manage the health of populations"
+    Closed 
+    2/3 ptsScore: 2 out of 3 points.
+    Quiz
+    Reading quiz # 3: AI Bill of Rights
+    Closed 
+    4.5/7 ptsScore: 4.5 out of 7 points.
+    Quiz
+    Reading quiz #4: AI safety
+    Closed 
+    3/3 ptsScore: 3 out of 3 points.
+    Quiz
+    Quiz #5: October 2023 executive order on AI safety and security
+    Closed 
+    0/3 ptsScore: 0 out of 3 points.
+    Quiz
+    Quiz #6 Differential Privacy
+    Closed 
+    3/4 ptsScore: 3 out of 4 points.
+    Assignment
+    Assignment 6
+    Closed 
+    90/100 ptsScore: 90 out of 100 points.
+    Quiz
+    Quiz 7: "The mythos of model interpretability"
+    Closed 
+    3/3 ptsScore: 3 out of 3 points.
+    Past Assignments
+    Assignment
+    Final Paper
+    Closed 
+    Due Dec 9, 2023 at 11:59pm Dec 9, 2023 at 11:59pm
+    90/100 ptsScore: 90 out of 100 points.
+    Assignment
+    Course Eval Proof
+    Closed 
+    Due Dec 8, 2023 at 11:59pm Dec 8, 2023 at 11:59pm
+    0/1 ptsScore: 0 out of 1 points.
+    Assignment
+    HW7 - Interpretability using LIME
+    Closed 
+    Due Dec 4, 2023 at 11:59pm Dec 4, 2023 at 11:59pm
+    100/100 ptsScore: 100 out of 100 points.
+    Assignment
+    Homework 5: ML Security
+    Closed 
+    Due Nov 9, 2023 at 11:59pm Nov 9, 2023 at 11:59pm
+    100/100 ptsScore: 100 out of 100 points.
+    Assignment
+    Homework #4: Evaluating Bias and Toxicity in Language Models
+    Closed 
+    Due Oct 26, 2023 at 11:59pm Oct 26, 2023 at 11:59pm
+    100/100 ptsScore: 100 out of 100 points.
+    Assignment
+    Homework #3: Mitigation and Model Cards
+    Closed 
+    Due Oct 12, 2023 at 11:59pm Oct 12, 2023 at 11:59pm
+    52/100 ptsScore: 52 out of 100 points.
+    Quiz
+    Reading quiz #2: Model cards
+    Closed 
+    Due Sep 27, 2023 at 3:40pm Sep 27, 2023 at 3:40pm
+    4/4 ptsScore: 4 out of 4 points.
+    Assignment
+    Assignment 2: Pytorch and Deep Learning
+    Closed 
+    Due Sep 22, 2023 at 11:59pm Sep 22, 2023 at 11:59pm
+    97/100 ptsScore: 97 out of 100 points.
+    Assignment
+    Assignment 1
+    Closed 
+    Due Sep 7, 2023 at 11:59pm Sep 7, 2023 at 11:59pm
+    97/100 ptsScore: 97 out of 100 points.
+    Quiz
+    Quiz 1: Basics of ML
+    Closed 
+    Due Aug 21, 2023 at 4pm Aug 21, 2023 at 4pm
+    5/5 pts
+
+    Grades for Trustworthy ML:
+    Name	Due	Status	Score	Details	Submission Progress Status
+Quiz 1: Basics of ML
+Imported Assignments
+Aug 21, 2023 by 4pm		
+Click to test a different score5 / 5 	
+ 
+ 
+Assignment 1
+Assignments
+Sep 7, 2023 by 11:59pm		
+Click to test a different score97 / 100 	
+ 
+  
+Assignment 2: Pytorch and Deep Learning
+Assignments
+Sep 22, 2023 by 11:59pm		
+Click to test a different score97 / 100 	
+ 
+  
+Reading quiz #2: Model cards
+Imported Assignments
+Sep 27, 2023 by 3:40pm		
+Click to test a different score4 / 4	
+ 
+ 
+Homework #3: Mitigation and Model Cards
+Assignments
+Oct 12, 2023 by 11:59pm	
+late
+Click to test a different score52 / 100	
+ 
+ 
+ 1 
+Homework #4: Evaluating Bias and Toxicity in Language Models
+Assignments
+Oct 26, 2023 by 11:59pm		
+Click to test a different score100 / 100 	
+ 
+ 
+Homework 5: ML Security
+Assignments
+Nov 9, 2023 by 11:59pm		
+Click to test a different score100 / 100 	
+ 
+ 
+HW7 - Interpretability using LIME
+Assignments
+Dec 4, 2023 by 11:59pm		
+Click to test a different score100 / 100 	
+ 
+ 
+Course Eval Proof
+Assignments
+Dec 8, 2023 by 11:59pm		
+Click to test a different score0 / 1 	
+ 
+ 
+Final Paper
+Assignments
+Dec 9, 2023 by 11:59pm		
+Click to test a different score90 / 100 	
+ 
+  
+ Originality Report
+Assignment 6
+Assignments
+late
+Click to test a different score90 / 100 	
+ 
+  
+ 1 
+Quiz #5: October 2023 executive order on AI safety and security
+Assignments
+Click to test a different score0 / 3 	
+ 
+ 
+Quiz #6 Differential Privacy
+Assignments
+Click to test a different score3 / 4 	
+ 
+ 
+Quiz 7: "The mythos of model interpretability"
+Imported Assignments
+Click to test a different score3 / 3 	
+ 
+ 
+Reading quiz # 3: AI Bill of Rights
+Imported Assignments
+Click to test a different score4.5 / 7 	
+ 
+ 
+Reading quiz #1: "Dissecting racial bias in an algorithm used to manage the health of populations"
+Assignments
+Click to test a different score2 / 3 	
+ 
+ 
+Reading quiz #4: AI safety
+Assignments
+Click to test a different score3 / 3 	
+ 
+ 
+Assignments			
+90.17%	734.00 / 814.00
+Imported Assignments			
+86.84%	16.50 / 19.00
+Total			
+90.1%	750.50 / 833.00
+Total: 90.1%
+Course assignments are not weighted.
+
+Syllabus:
+    CS 378: Trustworthy Machine Learning
+Fall 2023
+Instructor: Prof. Swarat Chaudhuri
+URL: http://www.cs.utexas.edu/~swarat
+Email: swarat@cs.utexas.edu
+
+TA: Josh Hoffman (hoffmanj@cs.utexas.edu)
+When and Where 
+
+Lectures: Mondays & Wednesdays; 3:30-5:00 pm
+
+
+Where: The class will be held in person at GDC 1.304. 
+
+
+Ed Discussion: We will use Ed discussion to distribute assignments and discuss questions during this course. You can access the system through Canvas. 
+
+Office hours:
+Prof. Chaudhuri's office hours are on Mondays at 12pm at GDC 5.810 and by appointment. 
+Josh Hoffman’s (TA) office hours are Thursday at 1-2pm and by appointment. Come drop in and say hello! It is in room GDC 2.902 located near O’s cafe in POB. 
+
+Course Description
+We increasingly live in an era in which learning-enabled "AI" systems pervade every facet of our society. At the same time, there are many ways in which ML algorithms can go "wrong" or behave unethically. ML algorithms are well-known for exhibiting (and perpetuating) systematic biases on the basis of characteristics such as gender or race. At the same time, the most powerful ML models are opaque and cannot readily explain their decisions. ML algorithms are also prone to leaking private data, and it is surprisingly easy to compromise state-of-the-art ML models using carefully crafted, malicious inputs. 
+
+This course offers a rigorous introduction to these issues with AI/ML algorithms and technical approaches that can help mitigate them. The course is divided into five modules: a refresher on ML/AI, algorithmic fairness, privacy in ML, ML security, and interpretability/explainability in ML. The work for the course will include three components: (1) programming assignments that explore fairness/security/privacy issues in ML using real-world datasets, (2) mathematical exercises on topics such as fair learning and differential privacy, (3) readings and discussions that connect these technical topics to broader debates about the role of AI in society. 
+
+Requirements: Upper-division CS standing. The work for this course includes a significant amount of Python programming and working with real datasets. The mathematical exercises require a solid foundation in discrete mathematics. The course targets students who already have some prior experience with AI/ML. If you have not previously taken an AI/ML class, the learning curve, especially in the early parts of the course, will be steep. 
+Evaluation
+Course grades will be based on:
+
+
+8 reading quizzes: 16% (of total credit)
+7 assignments: 70% 
+1 final "reflections" paper: 12%
+Filling out CIS feedback: 2%
+
+The course does not have exams. 
+LATE POLICY: Assignments need to be submitted on time. If you need to submit work late because of extenuating circumstances, you should make arrangements ahead of time with the instructor.  
+If work is submitted late, you will lose 20% per day late. Specifically, it will be a function of how many days late it is down to two-decimals according to Canvas. For example, a day and a half late (so 1.5 days late) would be an automatic 30% reduction in that assignment’s grade. 
+Laptop Policy
+By default, laptops will be closed during this class. We will allow the use of open laptops during in-class activities. 
+
+Collaboration and honesty policy
+Collaboration on homework problems is permitted; however, you must identify your collaborators in your submission. Before working with others on a problem, you should think about it yourself for some time. Finding answers to problems on the Web, copy-pasting answers generated by language models, or the use of help from outside sources (these include anyone not enrolled in the class) are strictly forbidden. You must write up each problem solution by yourself without assistance, even if you collaborate with others to solve the problem. It is a violation of these policies to submit a problem solution that you cannot orally explain to the  instructor or TA.
+Topic Sequence 
+Basics of ML 
+Fairness 
+Large Language Models
+Security 
+Privacy
+Interpretability 
+AI alignment 
+
+Readings (Subject to change)
+
+Fairness: Dissecting racial bias in an algorithm used to manage the health of populations.  https://www.science.org/doi/10.1126/science.aax2342 
+
+
+Model cards for model reporting: https://arxiv.org/abs/1810.03993
+
+Blueprint for an AI bill of rights (specifically the first 11 pages): https://www.whitehouse.gov/wp-content/uploads/2022/10/Blueprint-for-an-AI-Bill-of-Rights.pdf 
+
+
+Large language models: Reinforcement Learning with Human Feedback:
+https://arxiv.org/abs/2203.02155 
+
+
+AI safety: https://arxiv.org/pdf/2109.13916.pdf 
+
+Security: Attacks on LLMs: https://llm-attacks.org/zou2023universal.pdf
+
+Privacy: Differential privacy and the 2020 census: https://mit-serc.pubpub.org/pub/differential-privacy-2020-us-census/release/1
+
+
+Interpretability: Lipton. The mythos of model interpretability. https://arxiv.org/abs/1606.03490 
+
+
+Risks from Agentic AIs: https://arxiv.org/pdf/2302.10329.pdf 
+
+
+
+Course Schedule 
+
+Date
+Topic
+Notes 
+8/21
+Introduction; 
+Basics of ML
+Slides on ML basics
+Powerpoint slideshow
+PDF
+
+
+8/23
+Basics of ML
+
+
+8/23
+Recitation 1: ML with Python
+ROOM: GDC 5.302. 7-8pm
+8/24
+Assignment 1 released
+Deadline: 9/7
+Link to Jupyter notebook
+
+Link to COMPAS dataset for the assignment
+8/28
+Basics of ML
+
+
+8/30
+Algorithmic Fairness: Overview
+Slides on fairness
+PDF
+Powerpoint slideshow 
+8/30
+Recitation 2: Pytorch + deep learning 
+ROOM: GDC 5.302. 7-8pm
+9/4
+No class; Labor day
+
+
+9/6
+Fairness overview + Definitions of fairness
+
+
+
+9/11
+Assignment 2 released
+Deadline: 9/22
+Link to Jupyter notebook 
+9/11
+Definitions of fairness
+Reading quiz + discussion 1
+https://www.science.org/doi/10.1126/science.aax2342
+
+Slides on the science of fairness
+PDF
+Powerpoint slideshow 
+9/13
+Mitigating fairness issues
+
+
+9/18
+Mitigating fairness issues
+
+
+9/20
+Causality
+
+
+9/25
+Causality
+
+
+
+
+
+9/27
+Large language models 
+
+
+Reading quiz + discussion 2: Model cards for model reporting
+
+Slides on LLM alignment
+PDF
+Powerpoint slideshow 
+
+
+Assignment 3 released 
+Deadline: 10/12
+Link to Jupyter notebook
+
+Link to folder with data
+10/2
+LLM alignment: RL with human feedback
+
+
+10/4
+AI security: ML security  
+Reading quiz + discussion 3: Blueprint for an AI Bill of Rights 
+10/9
+ML security: attacks
+Slides on ML security and adversarial learning
+PDF
+Powerpoint slideshow
+10/11
+ML security: defenses
+
+
+
+
+Assignment 4 released
+Deadline: 10/26
+Link to Jupyter notebook
+Link to “Honest” Eval File
+10/16
+Certified defenses
+
+
+10/18
+Certified defenses
+
+
+10/23
+Privacy
+
+
+All slides on privacy
+PDF 
+10/25
+Privacy
+
+
+
+
+Assignment 5 released
+Deadline: 11/9
+Link to folder with Jupyter notebook and other files
+10/30
+Privacy
+
+
+11/4
+Privacy
+
+
+11/6
+Interpretability
+All slides on interpretability
+PDF
+
+
+Assignment 6 released 
+Deadline: 11/27
+Link to folder with Jupyter notebook and other files
+11/13
+Interpretability
+
+
+11/15
+Interpretability
+
+
+11/28
+Neurosymbolic Programming
+All slides on neurosymbolic programming
+11/30
+Neurosymbolic programming
+
+
+12/4
+Neurosymbolic programming
+
+
+
