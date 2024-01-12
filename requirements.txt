@@ -6,4 +6,4 @@ llama-cpp-python
 flask
 chromadb
 jq
-torch
+torch == 1.2.0
