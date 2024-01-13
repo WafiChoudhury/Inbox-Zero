@@ -4,11 +4,11 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema.output import LLMResult
 from langchain.prompts import PromptTemplate
 from langchain.embeddings import HuggingFaceBgeEmbeddings
-from langchain.document_loaders import DirectoryLoader, JSONLoader, TextLoader
+from langchain.document_loaders import DirectoryLoader, TextLoader
 from langchain.chat_models import ChatOpenAI
 from langchain.chains import RetrievalQA
 from langchain.callbacks.base import BaseCallbackHandler
-from flask import Flask, Response, render_template, request, redirect, session
+from flask import Flask, Response, render_template, request, redirect
 import torch
 from typing import Any, Dict, List
 from queue import Queue
