@@ -1,8 +1,7 @@
--f https://download.pytorch.org/whl/torch_stable.html
 openai
 langchain
 sentence_transformers
 flask
 chromadb
-torch 
+torch
  
